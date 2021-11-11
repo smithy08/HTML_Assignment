@@ -12,7 +12,10 @@ body {
 }
 
 .card{
-    background-color: #3a3a3a;
+    background-color: #363636;
+    border-radius: 10px;
+    border: #050505;
+    border-width: 15px;
 }
 
 .form-text-input{
@@ -39,15 +42,22 @@ body {
 input:focus{
     background-color: #ffffff;
     border: 2px solid white;
+    
 }
+
 
 #footer-text h5{
     font-family: sans-serif;
     font-size: 0.8em;
 }
 
-.welcome-text h5 {
+.welcome-text h5{
+    font-family: sans-serif;
     font-size: 0.8em;
+}
+
+.welcome-text h4{
+    font-family: sans-serif;
 }
 
 
