@@ -1,0 +1,83 @@
+body {
+    background-color: #202020;
+    background: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#login-form h2{
+    font-family: sans-serif;
+    font-size: 0.9em;
+    font-weight: 100;
+}
+
+.card{
+    background-color: #3a3a3a;
+}
+
+.form-text-input{
+    padding:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+.form-input{
+    color: #fff;
+    border:none;
+    border-radius: 10px;
+    padding: 0.9rem 0;
+}
+
+.form-control{
+    width: 90%;
+    fill:none;
+    border:none;
+    border-bottom: 1px solid white;
+    font-size: 18px;
+}
+
+input:focus{
+    background-color: #ffffff;
+    border: 2px solid white;
+}
+
+#footer-text h5{
+    font-family: sans-serif;
+    font-size: 0.8em;
+}
+
+.welcome-text h5 {
+    font-size: 0.8em;
+}
+
+
+.input_img {
+    float: left;
+    width:20px;
+    height:20px;
+    margin-top: 13px;
+    margin-right: 5px;
+}
+
+#input_container {
+    position:relative;
+    padding:0 0 0 20px;
+    margin:0 20px;
+    background:#ddd;
+    direction: rtl;
+    width: 200px;
+}
+
+.form-btn{
+    margin-top: auto;
+    fill:none;
+    border:none;
+    border-bottom: 1px solid white;
+    font-size: 18px;
+}
+.form-btn:hover{
+
+    border: 2px solid white;
+    border-radius: 10px;
+
+}
