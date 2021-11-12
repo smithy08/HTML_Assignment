@@ -1,0 +1,31 @@
+
+#carosel-container{
+    width: 100%;
+    background-color: #ebebeb;
+    
+}
+
+.dual-container{
+    margin-top: 25px;
+    text-align: center;
+    background-color: #ebebeb;
+
+}
+
+.triple-image{
+    width: 90%;
+    height: 90%;
+}
+
+.footer-container{
+    background-color: #ebebeb;
+}
+
+.logo{
+    margin-top: 10px;
+    float: left;
+}
+
+.navbar-brand{
+    margin-top: 12px;
+}
