@@ -1,5 +1,5 @@
 body {
-    background-color: #202020;
+    background-color: #000000;
     background: url(images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,8 +14,7 @@ body {
 .card{
     background-color: #363636;
     border-radius: 10px;
-    border: #050505;
-    border-width: 15px;
+    border-width: 3px;
 }
 
 .form-text-input{
