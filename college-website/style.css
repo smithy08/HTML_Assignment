@@ -36,7 +36,7 @@
     margin-top: 12px;
 }
 
-h5 {
+h5, h2 {
     font-weight: 200;
 
 }
@@ -55,6 +55,17 @@ h5 {
     margin-bottom: 100px;
 }
 
+.department-container{
+    margin-left: 40px !important;
+}
+
+.single-large-image{
+    margin: 0 20px 20px 20px;
+}
+
+.course-links{
+    margin: 20px
+}
 
 
 
@@ -64,12 +75,20 @@ h5 {
         margin-left: 10px;
         margin-right: 10px;
     }
+
+    .course-links{
+        width: 95%;
+    }
 }
 
 @media (min-width: 576px){
     .form-body{
         margin-left: 80px;
         margin-right: 80px;
+    }
+
+    .course-links{
+        width: 90%;
     }
 }
 
@@ -78,6 +97,11 @@ h5 {
         margin-left: 150px;
         margin-right: 150px;
     }
+
+    .course-links{
+        width: 75%;
+    }
+
 }
 
 @media (min-width: 992px){
@@ -85,11 +109,19 @@ h5 {
         margin-left: 200px;
         margin-right: 200px;
     }
+
+    .course-links{
+        width: 50%;
+    }
 }
 
 @media (min-width: 1200px){
     .form-body{
         margin-left: 350px;
         margin-right: 350px;
+    }
+
+    .course-links{
+        width: 30%;
     }
 }
